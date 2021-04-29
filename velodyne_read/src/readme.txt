@@ -1,0 +1,2 @@
+velodyne_packets_reader.cpp是对Velodyne的原始UDP数据进行处理，得到xyz坐标
+velodyne_points_listener.cpp是用了Velodyne自带的一个库函数直接得到xyz坐标，然后进行点云的处理
